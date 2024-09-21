@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rental Service</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Bike Rental</h1>
+            <nav>
+                <ul>
+                    <li><a href="MAIN.HTML">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="bike.html">Bikes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Find the perfect bike for your adventure!</h2>
+            <p>Explore the city or hit the trails with our range of bikes.</p>
+            <a href="bike.html" class="btn">Explore Bikes</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing you with the best bike rental experience. Whether you are a casual rider or an experienced cyclist, we have a bike for you!</p>
+        </div>
+    </section>
+
+    <!-- Featured Bikes Section -->
+    <section id="bikes" class="bikes">
+        <div class="container">
+            <h2>Our Featured Bikes</h2>
+            <div class="bike-grid">
+                <div class="bike">
+                    <img src="mountain bike.jpeg" alt="Mountain Bike">
+                    <h3>Mountain Bike</h3>
+                    <p>Perfect for off-road adventures.</p>
+                    <a href="#" class="btn">Rent Now</a>
+                </div>
+                <div class="bike">
+                    <img src="roadbike.jpeg" alt="Road Bike">
+                    <h3>Road Bike</h3>
+                    <p>For smooth and fast rides on pavement.</p>
+                    <a href="#" class="btn">Rent Now</a>
+                </div>
+                <div class="bike">
+                    <img src="electricbike.jpeg" alt="Electric Bike">
+                    <h3>Electric Bike</h3>
+                    <p>Go further with electric assistance.</p>
+                    <a href="#" class="btn">Rent Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bike Rental Service. All Rights Reserved.</p>
+            <ul>
+                <li><a href="MAIN.HTML">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="bike.html">Bikes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    background-image:url("supbike1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e76f51;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.2em;
+}
+
+.about p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+/* Bikes Section */
+.bikes {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.bikes h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.bike-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bike {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bike img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.bike h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.bike p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #f4a261;
+}
+
